@@ -1,0 +1,63 @@
+.gradient{
+  background-color: var(--gradient);
+}
+.defaultMargin{
+  margin: 0 14rem;
+}
+.title__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  text-align: center;
+  h2{
+      color: white;
+      font-size: 2rem;
+  }
+  p{
+      color: rgb(153,153,153);
+  }
+}
+.spring {
+  display: flex;
+  align-items: center;
+  margin: 6rem 0;
+  .coil {
+    border-top: white dashed 0.01rem;
+    width: 49.75%;
+  }
+  .bar{
+    width: 0.5%;
+    height: 7rem;
+    background: linear-gradient(to right, #c5e35b, #e65f20);
+  }
+}
+.spring.right {
+  flex-direction: row-reverse;
+}
+.design{
+  position: relative;
+  .background{
+      height: 10rem;
+      width: 12rem;
+      background: linear-gradient(to right, #c5e35b, #e65f20);
+      position: absolute;
+      z-index: -1;
+      left: -10px;
+      top: -8px;
+  }
+}
+.right{
+  .background{
+      top: auto;
+      left: auto;
+      right: -10px;
+      bottom: -8px;
+  }
+}
+h3 {
+  color: white;
+}
+p {
+  color: rgb(129, 128, 128);
+}

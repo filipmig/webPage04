@@ -1,0 +1,14 @@
+.languages{
+  .container{
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      .language{
+          img{
+              height: 7rem;
+              //filter: brightness(0) invert(1);
+              transition: 0.5s ease-in-out;
+          }
+      }
+  }
+}

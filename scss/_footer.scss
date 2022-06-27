@@ -1,0 +1,34 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: #181818;
+  padding: 1rem;
+  h3{
+      padding: .3rem;
+      text-align: center;
+      span{
+          font-size: 1.5rem;
+          @include gradientText;
+      }
+  }
+  .links{
+      color: white;
+      cursor: pointer;
+      ul{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-grow: 3;
+          gap: 2rem;
+          margin-top: .5rem;
+      }
+  }
+}
+.lower__footer{
+  color: rgb(129, 128, 128);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 14rem;
+}
